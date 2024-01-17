@@ -1,13 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Great+Vibes&family=PT+Sans&family=Roboto:wght@300&family=Sono&family=Source+Sans+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Great+Vibes&family=PT+Sans&family=Roboto:wght@300&family=Sono&family=Source+Sans+Pro:wght@300;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Poppins&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'PT Sans', sans-serif;
     overflow-x: hidden;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Poppins';
 }
 
 html {
@@ -78,7 +77,7 @@ div:nth-child(7) {
 
 .navigation .navigation-content div a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     font-weight: 600;
 }
@@ -194,23 +193,24 @@ div:nth-child(7) {
 
 .showcase .showcase-title {
     position: absolute;
+    text-align: center;
 }
 
 .showcase .showcase-title p:nth-child(1) {
-    font-size: 5rem;
+    font-size: 100px;
     color: #ee4d2d;
     font-weight: bold;
-    text-shadow: 6px 2px 8px #908b8b;
+    text-shadow: 6px 4px 8px #333;
 }
 
 .showcase .showcase-title p:nth-child(2) {
-    font-size: 2rem;
-    font-weight: 400;
+    font-size: 30px;
+    font-weight: 600;
     line-height: 3rem;
 }
 
 .showcase .showcase-title p:nth-child(3) {
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 3rem;
     font-weight: 600;
 }
